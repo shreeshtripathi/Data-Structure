@@ -8,24 +8,53 @@ using namespace std;
 vector<string> goldpsf;
 int mymax = 99999; 
 
-void goldMineSolver(vector<vector<int>>& mine, int r, int c, int amt, string psf)
+void goldMineSolver(vector<vector<int>>& mine)
 {
     // fiish it
+    vector<vector<int>> global(mine.size(), vector<int>(mine[0].size(), 0));
+
+    for(int j = global[0].size()-1; j >= 0; j--)
+    {
+        for(int i = 0; i < global.size(); i++)
+        {
+            if(j == global[0].size() - 1)
+            {
+                global[i][j] = mine[i][j];
+            }
+            else if(i == 0)
+            {
+                global[i][j] = mine[i][j] + max(global[i][j + 1], global[i + 1][j + 1]);
+            }
+            else if(i == global.size() - 1)
+            {
+                global[i][j] = mine[i][j] + max(global[i][j + 1], global[i - 1][j + 1]);
+            }
+            else
+            {
+                global[i][j] =  mine[i][j] + max(global[i - 1][j + 1], max(global[i][j + 1], global[i + 1][j + 1]));
+            }
+        }
+    }
+
+    for(int i = 0; i < global.size(); i++)
+    {
+        for(int j = 0; j < global[0].size(); j++)
+        {
+            cout << global[i][j] << " ";
+        }
+        cout << endl;
+    }
 }
 
 int main(int argc, char** argv)
 {
     vector<vector<int>> mine {
-        {1, 0, 9, 3, 6, 7},
-        {1, 3, 7, 9, 0, 0},
-        {4, 2, 0, 6, 1, 8},
-        {2, 8, 1, 4, 2, 3},
-        {0, 5, 0, 5, 6, 4},
-        {2, 4, 7, 8, 1, 5}
+        {1,5,1,0,3},
+        {1,4,0,2,3},
+        {4,0,1,3,2},
+        {2,4,0,4,1},
+        {1,2,3,2,0}
     };
 
-    for(int i = 0; i < mine.size(); i++)
-    {
-
-    }
+    goldMineSolver(mine);
 }
