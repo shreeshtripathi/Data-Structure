@@ -1,0 +1,81 @@
+- Shreesh Kumar Tripathi :-)
+________________
+PepCoding :
+________________
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	1. Stack and Queues:
+		1.1  - Stack and Queues Demo (ddid problem)
+		1.2	 - NGE next greater element (from right to left, from left to right)
+		1.3	 - Largest Area Histogram (largest Area from graph, application of nge)
+		1.4  - Sliding Window (largest element in each window)
+		1.5  - Duplicate Brackets (irrelevent or needless brackets)
+		1.6  - Celebrity Problem (2-D matrix checking interconnection)
+		1.7  - Overlaping intervals (free time between some given time interval)
+		1.8  - Stock span (Application of left greater element)
+		1.9  - Matching brackets 
+		1.10 - Infix evaluation (calculation, infix to prefix, infix to postfix)
+		1.11 - Postfix evalution (calculation, postfix to infix, postfix to prefix)
+		1.12 - Prefix evaluation (calculation, prefix to infix, prefix to postfix)
+		1.13 - STACK IMPLEMENTATION :
+			1.13.1 - myStack (Make normal stack using vector)
+			1.13.2 - twoStack (Make two stcaks using single vector)
+			1.13.3 - kStacks (Make k stacks using single vector)
+			1.13.4 - minStack (implement a stack using lib. which return min on top and pop)
+			1.13.5 - petrol pumps problem 
+		
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	2. Graph:
+		2.1  - Graph representation (class- Edge, Add Edge, display information) 
+		2.2  - haspath (return boolean, if path return true else false)
+		2.3  - print all path (Excluding source, including source)
+		2.4	 - Min path, max path (from source to dest, indentity for min is +infinity, for max -inf)  
+		2.5  - ceil path, floor path (ceil = qualified min, floor qualified max from factor)
+		2.6  - Kth Largest (from ceil infinity OR from priority Queue)
+		2.7  - bfs travesral
+		2.8  - fire in city(a matrix called city have water and wood, fire distribute in 4 dir.)
+		2.9  - get connected components (make two fun. master and slave)
+		2.10 - number of Island (given a matrix, application of gcc)
+		2.11 - isCyclic
+		2.12 - Astronauts pairing from differenet nations
+		2.13 - isBipertite (if it is possible to partition the graph  in mnutually exclusive manners)
+		2.14 - Djikstras (from single soure to multiple dest shortest path in terms of weight)
+		2.15 - Prims (minimum spanning tree) - connect all vertex without cycle with low cost
+		2.16 - Krushkals (it also minimum spanning tree)
+		2.17 - Hamiltoniun paths and cycle ( vertex from we can visit all vertex without visiting twice)
+		2.18 - Knights Tour (Printing all the poss. from x, y to visited all cell without visiting twice)
+		2.19 - FloydWarshell Algo
+		2.20 - Bellmanford Algo
+		2.21 - Bridges and Articulation Point
+		
+		
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	3. Dynamic Programming (DP) : using extra space we reduce time complexity
+		3.01 - Fibonacci Series with dp
+		3.02 - climb stair
+		3.03 - goldmine
+		3.04 - climb stair tabulation
+		3.05 - Target Sum
+		3.06 - Coin Change
+		3.07 - 
+		3.08 - 
+		3.09 - 
+		3.10 - 
+		3.11 - 
+		3.12 - 
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
